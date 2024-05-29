@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Post::factory(500)->create([
+        Post::factory(100)->create([
             'name' => 'Test post',
             'description' => 'test description',
         ]);
